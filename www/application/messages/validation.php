@@ -1,0 +1,31 @@
+<?php defined('SYSPATH') OR die('No direct script access.');
+
+return array(
+	'alpha'         => ':field must contain only letters',
+	'alpha_dash'    => ':field must contain only numbers, letters and dashes',
+	'alpha_numeric' => ':field must contain only letters and numbers',
+	'color'         => 'Wrong color',
+	'credit_card'   => 'Wrong credit card number',
+	'date'          => 'Wrong date',
+	'decimal'       => ':field must be a decimal with :param2 places',
+	'digit'         => ':field must be a digit',
+	'email'         => 'Wrong email address',
+	'email_domain'  => 'Wrong email domain',
+	'equals'        => ':field must equal :param2',
+	'exact_length'  => ':field must be exactly :param2 characters long',
+	'in_array'      => ':field must be one of the available options',
+	'ip'            => 'Wrong ip address',
+	'matches'       => ':field must be the same as :param3',
+	'min_length'    => ':field must be at least :param2 characters long',
+	'max_length'    => ':field must not exceed :param2 characters long',
+	'min'           => ':field must be at least :param2',
+	'max'           => ':field must not exceed :param2',
+	'not_empty'     => 'Mandatory field',
+	'numeric'       => ':field must be numeric',
+	'phone'         => 'Wrong number',
+	'range'         => ':field must be within the range of :param2 to :param3',
+	'regex'         => 'Wrong format',
+	'url'           => 'Wrong url',
+
+	'Model_Publications_Rubric::check_rubric_id' => 'Mandatory field',
+);

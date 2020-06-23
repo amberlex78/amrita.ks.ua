@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Bootstrap css changes
+-------------------------------------------------------------*/
+
+body {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background-color: #FBFBFB;
+}
+
+form { margin: 0 0 15px; }
+
+/* Color hover tr */
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+	background-color: #FDF5E6;
+}
+
+/* Main top menu */
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+	color: #bababa;
+}
+
+/* For simple left menu */
+.nav-header { color: #494949; background-color: #eaeaea; font-size: 13px;}
+
+/* For accordion left menu */
+.accordion-group { margin-bottom: 5px; }
+.accordion-heading a { outline: none; text-decoration: none; }
+.accordion-heading a:hover { text-decoration: none; }
+.accordion-inner { padding: 4px; }
+
+
+/* Added my (new)
+-------------------------------------------------------------*/
+
+h1 {font-size: 28.5px; color: #5D5D5D;}
+h2 {font-size: 24.5px; color: #5D5D5D;}
+h3 {font-size: 20.5px; color: #5D5D5D;}
+h4 {font-size: 16.5px; color: #5D5D5D;}
+
+.tbred, .required { color: #B94A48; }
+
+.both { clear: both; }
+
+.breadcrumb {
+	padding: 3px 3px 5px;
+	margin: 0 0 20px;
+}
+
+/* Actions in table */
+.btns-actions a {
+	margin: 0 6px;
+	text-decoration: none;
+	white-space:nowrap;
+}
+
+/* For top buttons above the table */
+.btns-top { margin-bottom: 15px; }
+
+
+/* For thumbnail uploaded image */
+.responses {
+	float: left;
+	margin-right: 5px;
+}
+
+/* Upload image button */
+.img-btn-actions {
+	padding-top: 5px;
+	text-align: center;
+}
+.fileinput-button {
+	position: relative;
+	overflow: hidden;
+}
+.fileinput-button input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transform: translate(-300px, 0) scale(4);
+	font-size: 23px;
+	direction: ltr;
+	cursor: pointer;
+}
